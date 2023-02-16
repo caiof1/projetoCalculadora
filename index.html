@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <main>
+        <section class="calc">
+            <div class="calc__screen">
+                <input type="text" id="screen" disabled>
+            </div>
+            <div class="buttons__sinais">
+                <div class="calc__buttons">
+                    <div class="button">
+                        <button onclick="Calc('7')">7</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('8')">8</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('9')">9</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('4')">4</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('5')">5</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('6')">6</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('1')">1</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('2')">2</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('3')">3</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('+')" class="pink">+</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('0')">0</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('-')" class="pink">-</button>
+                    </div>
+                </div>
+                <div class="calc__sinais">
+                    <div class="button">
+                        <button onclick="Apagar()">&larr;</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('/')">/</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Calc('*')">*</button>
+                    </div>
+                    <div class="button">
+                        <button onclick="Res()">=</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
