@@ -1,3 +1,4 @@
+/* Limpando as config padrão */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* Criando a base da calculadora */
 .calc {
     margin-top: 30px;
     background: rgb(50, 50, 50);
@@ -20,6 +22,7 @@ main {
     height: 500px;
     border-radius: 20px;
 }
+/* Estilizando a tela da calc */
 .calc__screen {
     width: 100%;
 }
@@ -33,6 +36,7 @@ main {
     text-align: right;
     color: white;
 }
+/* Mexendo nos buttons da calc */
 .buttons__sinais {
     display: flex;
 }
